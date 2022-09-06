@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "range.h"
+#include <range.h> //Add range.h file in C:\MinGW\include to using it as main library.
 /* ****************************** Includes Section End **************************** */
 	
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 	int Random_Number = 0, Start_Val = 0, End_Val = 0;
 	srand(time(NULL));
 	
-	Random_Number = rand() % 2000 + 1;
+	Random_Number = rand() % 1000 + 1;
 	Start_Val = 1;
 	End_Val = 1000;
 	
